@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-y: hidden;
+    font-family: "M PLUS 1 Code", monospace;
+}
+
+.webg1 {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+
+.title {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -75%);
+}
